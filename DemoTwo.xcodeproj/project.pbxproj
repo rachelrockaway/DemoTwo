@@ -13,6 +13,7 @@
 		49119B711B34BCF4005B18AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49119B701B34BCF4005B18AA /* Images.xcassets */; };
 		49119B741B34BCF4005B18AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49119B721B34BCF4005B18AA /* LaunchScreen.xib */; };
 		49119B801B34BCF4005B18AA /* DemoTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49119B7F1B34BCF4005B18AA /* DemoTwoTests.swift */; };
+		49119B8D1B34BF1F005B18AA /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49119B8C1B34BF1F005B18AA /* ViewControllerB.swift */; };
 		5B4F70F1D3EBCF50D9A7AEE7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 565D7BD9725BDAD847BC4D0C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,8 @@
 		49119B791B34BCF4005B18AA /* DemoTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49119B7E1B34BCF4005B18AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49119B7F1B34BCF4005B18AA /* DemoTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTwoTests.swift; sourceTree = "<group>"; };
-		49119B891B34BE12005B18AA /* DemoTwo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoTwo-Bridging-Header.h"; sourceTree = "<group>"; };
+		49119B891B34BE12005B18AA /* DemoTwo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoTwo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		49119B8C1B34BF1F005B18AA /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 		565D7BD9725BDAD847BC4D0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC665F4A4EDAAD0594832706 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +72,6 @@
 				49119B651B34BCF4005B18AA /* Products */,
 				B666D9D61A7B7BE1D39D7657 /* Pods */,
 				580A369A13E573EA4189E2AF /* Frameworks */,
-				49119B891B34BE12005B18AA /* DemoTwo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +89,8 @@
 			children = (
 				49119B691B34BCF4005B18AA /* AppDelegate.swift */,
 				49119B6B1B34BCF4005B18AA /* ViewController.swift */,
+				49119B8C1B34BF1F005B18AA /* ViewControllerB.swift */,
 				49119B6D1B34BCF4005B18AA /* Main.storyboard */,
-				49119B701B34BCF4005B18AA /* Images.xcassets */,
-				49119B721B34BCF4005B18AA /* LaunchScreen.xib */,
 				49119B671B34BCF4005B18AA /* Supporting Files */,
 			);
 			path = DemoTwo;
@@ -99,6 +99,9 @@
 		49119B671B34BCF4005B18AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49119B721B34BCF4005B18AA /* LaunchScreen.xib */,
+				49119B701B34BCF4005B18AA /* Images.xcassets */,
+				49119B891B34BE12005B18AA /* DemoTwo-Bridging-Header.h */,
 				49119B681B34BCF4005B18AA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49119B8D1B34BF1F005B18AA /* ViewControllerB.swift in Sources */,
 				49119B6C1B34BCF4005B18AA /* ViewController.swift in Sources */,
 				49119B6A1B34BCF4005B18AA /* AppDelegate.swift in Sources */,
 			);
